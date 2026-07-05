@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch học theo giai đoạn · D24CQVT01-N</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Lịch học theo giai đoạn · Lớp D24CQVT01-N</h1>
+  <div class="sub mono">Học kỳ 22 tuần · Tuần 1: 10/08/2026 – 16/08/2026 &nbsp;→&nbsp; Tuần 22: 04/01/2027 – 10/01/2027</div>
+  <div class="track-preview mono" id="trackPreview">Di chuyển hoặc nhấn vào các vạch để xem ngày chi tiết</div>
+  <div class="semester-track" id="semesterTrack"></div>
+</header>
+
+<div class="toolbar">
+  <div class="field" id="toFieldsWrap"></div>
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--lt-border)"></i>Lý thuyết (LT)</span>
+    <span><i class="swatch" style="background:var(--th-border)"></i>Thực hành (TH)</span>
+    <span><i class="swatch" style="background:var(--dup-border)"></i>Cùng lịch, khác lớp</span>
+    <span><i class="swatch" style="background:var(--morning)"></i>Sáng (tiết 1–4)</span>
+    <span><i class="swatch" style="background:#fff;border:1px solid var(--line)"></i>Tiết 5–6 (trắng)</span>
+    <span><i class="swatch" style="background:var(--afternoon)"></i>Chiều (tiết 7–10)</span>
+  </div>
+</div>
+
+<div class="toc" id="toc"></div>
+
+<main id="main"></main>
+
+<footer>Dữ liệu lấy từ danh sách môn học đăng ký · D24CQVT01-N</footer>
+
+<script id="courses-data" type="application/json">
+[
+  {"ma_mh":"TEL1337","ten_mon":"Toán rời rạc","nhom":"02","to":"","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":2,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-10","den_ngay":"2026-10-19","loai":"LT"}]},
+  {"ma_mh":"TEL1337","ten_mon":"Toán rời rạc","nhom":"02","to":"","so_tc":3,"lop":"D25CQCI01","lich":[{"thu":2,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-10","den_ngay":"2026-10-19","loai":"LT"}]},
+  {"ma_mh":"ELE1317","ten_mon":"Kỹ thuật vi xử lý","nhom":"01","to":"","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":2,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-08-10","den_ngay":"2026-10-19","loai":"LT"}]},
+  {"ma_mh":"TEL1421","ten_mon":"Truyền sóng và anten","nhom":"01","to":"01","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-09-08","den_ngay":"2026-09-15","loai":"TH"},{"thu":6,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1421","ten_mon":"Truyền sóng và anten","nhom":"01","to":"02","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-11-03","den_ngay":"2026-11-10","loai":"TH"},{"thu":6,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1421","ten_mon":"Truyền sóng và anten","nhom":"01","to":"03","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-10-20","den_ngay":"2026-10-27","loai":"TH"},{"thu":6,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1421","ten_mon":"Truyền sóng và anten","nhom":"01","to":"04","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-10-06","den_ngay":"2026-10-13","loai":"TH"},{"thu":6,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1421","ten_mon":"Truyền sóng và anten","nhom":"01","to":"05","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-09-22","den_ngay":"2026-09-29","loai":"TH"},{"thu":6,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"BAS1153","ten_mon":"Lịch sử Đảng Cộng sản Việt Nam","nhom":"01","to":"","so_tc":2,"lop":"D24CQVT01-N","lich":[{"thu":3,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-08-11","den_ngay":"2026-09-29","loai":"LT"}]},
+  {"ma_mh":"TEL1340","ten_mon":"Kỹ thuật lập trình","nhom":"01","to":"01","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":4,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-09-09","den_ngay":"2026-09-23","loai":"TH"},{"thu":6,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1340","ten_mon":"Kỹ thuật lập trình","nhom":"01","to":"02","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":4,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-09-30","den_ngay":"2026-10-14","loai":"TH"},{"thu":6,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1340","ten_mon":"Kỹ thuật lập trình","nhom":"01","to":"03","so_tc":3,"lop":"D24CQVT01-N","lich":[{"thu":4,"tiet_start":1,"tiet_end":4,"tu_ngay":"2026-10-21","den_ngay":"2026-11-04","loai":"TH"},{"thu":6,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-08-14","den_ngay":"2026-10-16","loai":"LT"}]},
+  {"ma_mh":"TEL1338","ten_mon":"Kiến trúc máy tính","nhom":"01","to":"","so_tc":2,"lop":"D24CQVT01-N","lich":[{"thu":4,"tiet_start":7,"tiet_end":10,"tu_ngay":"2026-10-07","den_ngay":"2026-11-25","loai":"LT"}]}
+]
+</script>
+
+  <script src="script.js"></script>
+</body>
+</html>

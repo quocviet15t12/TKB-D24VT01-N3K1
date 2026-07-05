@@ -1,0 +1,88 @@
+[
+  {
+    "ma_mh": "TEL1337", "ten_mon": "Toán rời rạc", "nhom": "02", "to": "", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 2, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-10", "den_ngay": "2026-10-19", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1337", "ten_mon": "Toán rời rạc", "nhom": "02", "to": "", "so_tc": 3, "lop": "D25CQCI01",
+    "lich": [
+      { "thu": 2, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-10", "den_ngay": "2026-10-19", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "ELE1317", "ten_mon": "Kỹ thuật vi xử lý", "nhom": "01", "to": "", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 2, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-08-10", "den_ngay": "2026-10-19", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1421", "ten_mon": "Truyền sóng và anten", "nhom": "01", "to": "01", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-09-08", "den_ngay": "2026-09-15", "loai": "TH" },
+      { "thu": 6, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1421", "ten_mon": "Truyền sóng và anten", "nhom": "01", "to": "02", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-11-03", "den_ngay": "2026-11-10", "loai": "TH" },
+      { "thu": 6, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1421", "ten_mon": "Truyền sóng và anten", "nhom": "01", "to": "03", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-10-20", "den_ngay": "2026-10-27", "loai": "TH" },
+      { "thu": 6, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1421", "ten_mon": "Truyền sóng và anten", "nhom": "01", "to": "04", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-10-06", "den_ngay": "2026-10-13", "loai": "TH" },
+      { "thu": 6, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1421", "ten_mon": "Truyền sóng và anten", "nhom": "01", "to": "05", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-09-22", "den_ngay": "2026-09-29", "loai": "TH" },
+      { "thu": 6, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "BAS1153", "ten_mon": "Lịch sử Đảng Cộng sản Việt Nam", "nhom": "01", "to": "", "so_tc": 2, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 3, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-08-11", "den_ngay": "2026-09-29", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1340", "ten_mon": "Kỹ thuật lập trình", "nhom": "01", "to": "01", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 4, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-09-09", "den_ngay": "2026-09-23", "loai": "TH" },
+      { "thu": 6, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1340", "ten_mon": "Kỹ thuật lập trình", "nhom": "01", "to": "02", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 4, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-09-30", "den_ngay": "2026-10-14", "loai": "TH" },
+      { "thu": 6, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1340", "ten_mon": "Kỹ thuật lập trình", "nhom": "01", "to": "03", "so_tc": 3, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 4, "tiet_start": 1, "tiet_end": 4, "tu_ngay": "2026-10-21", "den_ngay": "2026-11-04", "loai": "TH" },
+      { "thu": 6, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-08-14", "den_ngay": "2026-10-16", "loai": "LT" }
+    ]
+  },
+  {
+    "ma_mh": "TEL1338", "ten_mon": "Kiến trúc máy tính", "nhom": "01", "to": "", "so_tc": 2, "lop": "D24CQVT01-N",
+    "lich": [
+      { "thu": 4, "tiet_start": 7, "tiet_end": 10, "tu_ngay": "2026-10-07", "den_ngay": "2026-11-25", "loai": "LT" }
+    ]
+  }
+]
